@@ -104,20 +104,38 @@ nav a {
     font-size: 12px;
 }
 
-.container__vantagens {
-    text-align: center;
-}
-
 .vantagens-premium {
-    text-align: center;
-    margin-top: 1em;
     font-size: 40px;
+    font-family: var(--fonte-principal);
+    margin: 1em;
+    text-align: center;
 }
 
-.vantagens-texto-principal {
-    text-align: center;
-    
+.container__vantagens {
+    display: flex;
+    flex-wrap: nowrap;   
+    padding: 3em 10%;
 }
+
+.vantagens__item {
+    width: 25%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
