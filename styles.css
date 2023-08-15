@@ -122,6 +122,48 @@ nav a {
     text-align: center;
 }
 
+.planos__item {
+    width: 23%;
+    text-align: center;
+    background-color: var(--cor-de-fundo-principal);
+}
+
+.container__planos {
+    background-color: var(--cor-de-fundo-plano);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;   
+    padding: 3em 10%;
+    border-radius: 5px;
+}
+
+.mes-gratis {
+    display: flex;
+    align-items: flex-start;
+    margin: 8px 20px;
+}
+
+.mes-gratis h3 {
+    padding: 5px;
+    background-color: #22A71F;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pagamento-unico {
+    padding: 5px;
+    background-color: #22A71F;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
 
 
 
