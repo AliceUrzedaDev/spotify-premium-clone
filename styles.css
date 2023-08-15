@@ -171,3 +171,20 @@ nav a {
     align-items: flex-start;
     margin: 10px;
 }
+
+.valor-plano {
+    font-family: var(--fonte-principal);
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.conta-plano {
+    font-family: var(--fonte-principal);
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    font-size: 14px;
+}
+
+
