@@ -140,7 +140,7 @@ nav a {
 .mes-gratis {
     display: flex;
     align-items: flex-start;
-    margin: 8px 20px;
+    margin: 8px 8px;
 }
 
 .mes-gratis h3 {
@@ -152,9 +152,18 @@ nav a {
 }
 
 .pagamento-unico {
+    display: flex;
+    align-items: flex-start;
+    margin: 2px 8px;
+}
+
+.pagamento-unico h3 {
     padding: 5px;
-    background-color: #22A71F;
+    background-color: transparent;
+    border: 2px solid var(--cor-do-botao-plano);
+    border-radius: 5px;
     font-size: 10px;
+    padding: 5px;
 }
 
 
