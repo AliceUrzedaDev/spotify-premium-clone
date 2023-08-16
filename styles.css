@@ -9,7 +9,7 @@
     --cor-do-botao-plano: #22A71F;
     --fonte-principal: "Inter";
     --cor-da-fonte: #FBFBFB;
-    --cor-aviso: #c0c0c0;
+    --cor-aviso: #585757;
 
 }
 
@@ -100,7 +100,7 @@ nav a {
 
 .aviso-termos {
     color: var(--cor-aviso);
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .vantagens-premium {
@@ -126,7 +126,7 @@ nav a {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;   
-    padding: 3em 10%;
+    padding: 3em 15%;
 }
 
 .planos__item {
@@ -136,6 +136,7 @@ nav a {
     flex-direction: column;
     background-color: var(--cor-de-fundo-principal);
     border-radius: 5px;
+    padding: 7px;
 }
 
 .mes-gratis {
