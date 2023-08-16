@@ -122,19 +122,19 @@ nav a {
     text-align: center;
 }
 
-.planos__item {
-    width: 25%;
-    text-align: center;
-    background-color: var(--cor-de-fundo-principal);
-    border-radius: 5px;
-}
-
 .container__planos {
     background-color: var(--cor-de-fundo-plano);
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;   
     padding: 3em 10%;
+}
+
+.planos__item {
+    width: 23%;
+    text-align: center;
+    background-color: var(--cor-de-fundo-principal);
+    border-radius: 5px;
 }
 
 .mes-gratis {
