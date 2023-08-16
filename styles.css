@@ -123,7 +123,7 @@ nav a {
 }
 
 .planos__item {
-    width: 23%;
+    width: 25%;
     text-align: center;
     background-color: var(--cor-de-fundo-principal);
     border-radius: 5px;
