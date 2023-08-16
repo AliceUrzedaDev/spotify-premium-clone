@@ -4,8 +4,8 @@
 
 ## ✔️ Tecnologias utilizadas:
 
-- ``CSS``
 - ``HTML``
+- ``CSS``
 
 ## 📁 Acesso ao projeto
 
