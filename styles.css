@@ -14,6 +14,14 @@
 
 }
 
+body {
+    background-color: var(--cor-de-fundo-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
 * {
     margin: 0;
     padding: 0px;
@@ -244,7 +252,7 @@ footer {
 
 .rodape-item h2 {
     color: var(--cor-da-fonte-footer);
-    font-size: 12px; 
+    font-size: 13px; 
 }
 
 .rodape-item a {
@@ -271,6 +279,19 @@ footer {
     color: var(--cor-da-fonte-footer);
     font-size: 12px;
     text-decoration: none;
+
+}
+
+.item-final {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.item-rodape-final p {
+    color: var(--cor-da-fonte-footer);
+    text-align: center;
+    font-size: 10px;
 
 }
 
