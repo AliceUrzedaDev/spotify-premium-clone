@@ -277,3 +277,15 @@ footer {
 nav a:hover {
     color: var(--cor-do-botao-plano);
 }
+
+.botao-comece-planos:hover {
+    color: var(--cor-do-botao-plano);
+}
+
+.rodape-item a:hover {
+    color: var(--cor-do-botao-plano);
+}
+
+.rodape-texto-final a:hover {
+    color: var(--cor-do-botao-plano);
+}
