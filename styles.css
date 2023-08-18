@@ -124,7 +124,7 @@ header {
 }
 
 .vantagens__item {
-    width: 25%;
+    width: 100%;
     text-align: center;
 }
 
@@ -211,7 +211,7 @@ header {
 }
 
 .tipos-planos img {
-    margin: 5px;
+    margin: 3px;
     width: 30px;
     height: 30px;
 }
@@ -309,7 +309,7 @@ nav a:hover {
     color: var(--cor-do-botao-plano);
 }
 
-@media only screen and (min-width: 500px) and (max-width: 1100px) { 
+@media only screen  and (max-width: 768px) { 
 
     .container__secundario {
         display: block;
@@ -342,3 +342,4 @@ nav a:hover {
         
     }
 }
+
