@@ -16,6 +16,7 @@
 
 body {
     background-color: var(--cor-de-fundo-principal);
+    width: 100%;
     font-family: var(--fonte-principal);
     font-weight: 400;
   }
@@ -308,34 +309,36 @@ nav a:hover {
     color: var(--cor-do-botao-plano);
 }
 
-@media only screen and (min-width: 1800) and (max-width: 2000px) {
-    .container {
-        display: block;
-        
-    }    
-
-    .container__tipos {
-        width: 50vw;
-    }
+@media only screen and (min-width: 500px) and (max-width: 1100px) { 
 
     .container__secundario {
-        margin: 2em 2em;
+        display: block;
+        text-align: center;     
     }
 
-    .secundario {
-        margin: 0;
-        text-align: center;
+    .container__botao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vantagens-premium {
+        font-size: 30px;
+        font-family: var(--fonte-principal);
+    }
+
+    .container__vantagens {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;     
+    }
+
+    .container__vantagens img {
+        width: 40%;
     }
 
     .vantagens__item {
-        display: block;
-    }
-
-    .container__rodape-menu {
-        display: block;
-    }
-
-    .rodape-final {
-        display: block;
+        width: 25%;
+        
     }
 }
