@@ -110,7 +110,7 @@ header {
     font-size: 11px;
 }
 
-.vantagens-premium {
+.vantagens__premium {
     font-size: 40px;
     font-family: var(--fonte-principal);
     margin: 1em;
@@ -309,36 +309,39 @@ nav a:hover {
     color: var(--cor-do-botao-plano);
 }
 
-@media only screen  and (max-width: 768px) { 
+@media screen  and (max-width: 768px) { 
 
     .container__secundario {
-        display: block;
-        text-align: center;     
+        text-align: center;
+        align-items: center;
+    }
+
+    .premium__mensal {
+        font-size: 36px;
     }
 
     .container__botao {
         display: flex;
         flex-direction: column;
-        align-items: center;
+    }
+    
+    .botao-ver-planos {
+        width: 30vw;
     }
 
-    .vantagens-premium {
-        font-size: 30px;
-        font-family: var(--fonte-principal);
+    .container__planos {
+        text-align: center;
     }
 
     .container__vantagens {
-        display: flex;
+        display: block;
         flex-direction: column;
-        justify-content: center;     
+        justify-content: flex-start; 
+        margin: 2em 2em;
     }
 
-    .container__vantagens img {
-        width: 40%;
-    }
-
-    .vantagens__item {
-        width: 25%;
+    .vantagens__premium {
+        font-size: 30px;
     }
 }
 
