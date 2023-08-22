@@ -1,17 +1,16 @@
 :root {
-    --cor-de-fundo-principal: #FBFBFB;
+    --cor-de-fundo-principal: #fbfbfb;
     --cor-de-fundo-inicio: #000000;
-    --cor-de-fundo-secundario: #22A71F;
+    --cor-de-fundo-secundario: #22a71f;
     --cor-de-fundo-premium: #;
-    --cor-de-fundo-plano: #D9D9D9;
+    --cor-de-fundo-plano: #d9d9d9;
     --cor-de-fundo-final: #000000;
     --cor-do-botao: #000000;
-    --cor-do-botao-plano: #22A71F;
+    --cor-do-botao-plano: #22a71f;
     --fonte-principal: "Inter";
-    --cor-da-fonte: #FBFBFB;
+    --cor-da-fonte: #fbfbfb;
     --cor-aviso: #585757;
-    --cor-da-fonte-footer: #C6C6C6; 
-
+    --cor-da-fonte-footer: #c6c6c6;
 }
 
 body {
@@ -19,7 +18,7 @@ body {
     width: 100%;
     font-family: var(--fonte-principal);
     font-weight: 400;
-  }
+}
 
 * {
     margin: 0;
@@ -38,7 +37,7 @@ header {
 }
 
 .logo {
-    width: 70%
+    width: 70%;
 }
 
 .item-inicial nav a {
@@ -94,7 +93,6 @@ header {
 .botao-comece-agora {
     background-color: var(--cor-do-botao);
     margin-right: 10px;
-
 }
 
 .botao-ver-planos {
@@ -102,7 +100,7 @@ header {
     border: 2px solid var(--cor-da-fonte);
     text-decoration: none;
     color: var(--cor-da-fonte);
-    text-align: center; 
+    text-align: center;
 }
 
 .aviso-termos {
@@ -119,7 +117,7 @@ header {
 
 .container__vantagens {
     display: flex;
-    flex-wrap: nowrap;   
+    flex-wrap: nowrap;
     padding: 3em 10%;
 }
 
@@ -132,7 +130,7 @@ header {
     background-color: var(--cor-de-fundo-plano);
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;   
+    flex-wrap: nowrap;
     padding: 3em 15%;
 }
 
@@ -153,7 +151,7 @@ header {
 }
 
 .mes-gratis h3 {
-    background-color: #22A71F;
+    background-color: #22a71f;
     font-size: 10px;
     border-radius: 5px;
     padding: 5px;
@@ -207,7 +205,6 @@ header {
     font-size: 16px;
     display: flex;
     align-items: center;
-    
 }
 
 .tipos-planos img {
@@ -221,7 +218,6 @@ header {
     margin-bottom: 1em;
     display: flex;
     justify-content: center;
-  
 }
 
 .planos__item-body {
@@ -250,14 +246,14 @@ footer {
 
 .rodape-item h2 {
     color: var(--cor-da-fonte-footer);
-    font-size: 13px; 
+    font-size: 13px;
 }
 
 .rodape-item a {
     font-size: 15px;
     text-decoration: none;
     color: var(--cor-da-fonte);
-    display: flex; 
+    display: flex;
     margin-top: 9px;
 }
 
@@ -273,11 +269,10 @@ footer {
     justify-content: space-between;
 }
 
-.rodape-texto-final a{
+.rodape-texto-final a {
     color: var(--cor-da-fonte-footer);
     font-size: 12px;
     text-decoration: none;
-
 }
 
 .item-final {
@@ -290,7 +285,6 @@ footer {
     color: var(--cor-da-fonte-footer);
     text-align: center;
     font-size: 10px;
-
 }
 
 nav a:hover {
@@ -309,8 +303,7 @@ nav a:hover {
     color: var(--cor-do-botao-plano);
 }
 
-@media screen  and (max-width: 768px) { 
-
+@media screen and (max-width: 768px) {
     .container__secundario {
         text-align: center;
         align-items: center;
@@ -324,7 +317,7 @@ nav a:hover {
         display: flex;
         flex-direction: column;
     }
-    
+
     .botao-ver-planos {
         width: 30vw;
     }
@@ -336,7 +329,7 @@ nav a:hover {
     .container__vantagens {
         display: block;
         flex-direction: column;
-        justify-content: flex-start; 
+        justify-content: flex-start;
         margin: 2em 2em;
     }
 
@@ -344,4 +337,3 @@ nav a:hover {
         font-size: 30px;
     }
 }
-
