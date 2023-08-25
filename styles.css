@@ -105,6 +105,7 @@ header {
 
 .aviso-termos {
     color: var(--cor-aviso);
+    text-align: center;
     font-size: 11px;
 }
 
@@ -136,7 +137,6 @@ header {
 
 .planos__item {
     width: 23%;
-    text-align: center;
     display: flex;
     flex-direction: column;
     background-color: var(--cor-de-fundo-principal);
@@ -203,14 +203,15 @@ header {
 .tipos-planos {
     font-family: var(--fonte-principal);
     font-size: 16px;
+    margin: 9px;
     display: flex;
     align-items: center;
 }
 
 .tipos-planos img {
     margin: 3px;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 }
 
 .planos-item-footer {
@@ -227,6 +228,7 @@ header {
 .botao-comece-planos {
     background-color: var(--cor-do-botao);
     color: var(--cor-da-fonte);
+    text-align: center;
     border-radius: 20px;
     text-decoration: none;
     padding: 10px;
