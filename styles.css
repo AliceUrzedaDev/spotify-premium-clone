@@ -28,45 +28,6 @@ body {
    
 }
 
-.nav-button {
-    border: 0;
-    border-radius: 4px;
-    padding: 8px;
-    margin: 8px;
-    color: white;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.menu-overlay {
-    width: 0;
-    height: 100%;
-    background-color: rgba(0,0,0, 0.9);
-    z-index: 9;
-    position: fixed;
-    left: 0;
-    top: 0;
-    overflow-x: hidden;
-    transition: all 0.3s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.menu-overlay a {
-    padding: 8px;
-    text-decoration: none;
-    color: white;
-    display: block;
-    font-size: 30px;
-    transition: 0.3s;
-}
-
 header {
     background-color: var(--cor-de-fundo-inicio);
     width: 100%;
@@ -79,6 +40,7 @@ header {
 
 .logo {
     width: 70%;
+    display: block;
 }
 
 .item-inicial nav a {
@@ -92,7 +54,55 @@ header {
 .barra-vertical {
     color: var(--cor-da-fonte);
     padding-right: 10px;
-    width: 20px;
+}
+
+.nav-button {
+    display: none;
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: transparent;
+    color: #fff;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.9);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.6s;
+  
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 27px;
+    transition: 0.3s;
+}
+
+.overlay .close-btn {
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    font-size: 30px;
 }
 
 .container__secundario {
@@ -330,7 +340,7 @@ footer {
     font-size: 10px;
 }
 
-.menu-overlay a:hover, .menu-overlay a:focus {
+.overlay a:hover, .overlay a:focus {
     color: var(--cor-do-botao-plano);
 }
 
@@ -350,7 +360,39 @@ nav a:hover {
     color: var(--cor-do-botao-plano);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+
+    .logo {
+        width: 90%;
+    }
+
+    .logo img {
+        width: 35%;     
+        right: 100%;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .overlay a {
+        font-size: 20px;
+    }
+
+    .overlay .close-btn {
+        font-size: 20px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .item-inicial a {
+        display: none;
+    }
+
+    .barra-vertical {
+        display: none;
+    }
+
     .container__secundario {
         text-align: center;
         align-items: center;
@@ -382,5 +424,11 @@ nav a:hover {
 
     .vantagens__premium {
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1800px){
+    .logo {
+        width: 60%;
     }
 }
