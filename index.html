@@ -10,7 +10,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <script type="text/javascript" src=script.js></script>
+        <script type="text/javascript" src="script.js"></script>
         <title>Spotify Premium</title>
         <link rel="stylesheet" href="styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -59,7 +59,12 @@
             </section>
 
             <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a
+                    href="javascript:void(0)"
+                    class="closebtn"
+                    onclick="closeNav()"
+                    >&times;</a
+                >
 
                 <div class="overlay-content">
                     <a href="#">Spotify Premium</a>
@@ -72,7 +77,6 @@
             <button class="nav-button" onclick="openNav()">
                 <i class="fa-solid fa-bars fa-2x"></i>
             </button>
-
         </header>
         <section class="container__secundario">
             <h1 class="premium__mensal">
@@ -102,41 +106,51 @@
                     <div class="img-vantagens">
                         <img src="img/musical-note.png" alt="icone musical" />
                     </div>
-                    <h3 class="vantagens-texto-principal">Modo offline.</h3>
-                    <p class="vantagens-texto-secundario">
-                        Ouça música onde estiver.
-                    </p>
+                    <div class="texto-vantagens">
+                        <h3 class="vantagens-texto-principal">Modo offline.</h3>
+                        <p class="vantagens-texto-secundario">
+                            Ouça música onde estiver.
+                        </p>
+                    </div>
                 </div>
                 <div class="vantagens__item">
                     <div class="img-vantagens">
                         <img src="img/noads.png" alt="icone no ads" />
                     </div>
-                    <h3 class="vantagens-texto-principal">
-                        Ouça músicas sem anúncios.
-                    </h3>
-                    <p class="vantagens-texto-secundario">
-                        Curta música sem anúncios.
-                    </p>
+                    <div class="texto-vantagens">
+                        <h3 class="vantagens-texto-principal">
+                            Ouça músicas sem anúncios.
+                        </h3>
+                        <p class="vantagens-texto-secundario">
+                            Curta música sem anúncios.
+                        </p>
+                    </div>
                 </div>
                 <div class="vantagens__item">
                     <div class="img-vantagens">
                         <img src="img/playlist.png" alt="icone musica" />
                     </div>
-                    <h3 class="vantagens-texto-principal">
-                        Ouça na ordem que quiser.
-                    </h3>
-                    <p class="vantagens-texto-secundario">
-                        Qualquer música em qualquer ordem.
-                    </p>
+                    <div class="texto-vantagens">
+                        <h3 class="vantagens-texto-principal">
+                            Ouça na ordem que quiser.
+                        </h3>
+                        <p class="vantagens-texto-secundario">
+                            Qualquer música em qualquer ordem.
+                        </p>
+                    </div>
                 </div>
                 <div class="vantagens__item">
                     <div class="img-vantagens">
                         <img src="img/headphone.png" alt="icone fone de ouvido" />
                     </div>
-                    <h3 class="vantagens-texto-principal">
-                        Qualidade de som superior.
-                    </h3>
-                    <p class="vantagens-texto-secundario">Sinta o som.</p>
+                    <div class="texto-vantagens">
+                        <h3 class="vantagens-texto-principal">
+                            Qualidade de som superior.
+                        </h3>
+                        <p class="vantagens-texto-secundario">
+                            Sinta o som.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
