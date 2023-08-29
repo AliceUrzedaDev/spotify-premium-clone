@@ -130,7 +130,7 @@ header {
 }
 
 .container__botao a {
-    border-radius: 20px;
+    border-radius: 18px;
     padding: 1em;
     color: var(--cor-da-fonte);
     display: block;
@@ -139,7 +139,6 @@ header {
 }
 
 .container__botao {
-    justify-content: flex-start;
     display: flex;
     margin-top: 2em;
     font-family: var(--fonte-principal);
@@ -390,22 +389,25 @@ footer {
     }
 
     .premium__mensal {
-        font-size: 36px;
+        font-size: 30px;
+    }
+
+    .valor__mensal {
+        font-size: 13px;
+    }
+
+    .aviso-termos {
+        font-size: 9px;
     }
 
     .container__botao {
-        display: flex;
-        flex-direction: column;
+        font-size: 15px;
     }
 
-    .botao-ver-planos {
-        width: 30vw;
+    .vantagens__premium {
+        font-size: 30px;
     }
-
-    .container__planos {
-        text-align: center;
-    }
-
+    
     .container__vantagens {
         display: block;
         flex-direction: column;
@@ -413,9 +415,11 @@ footer {
         margin: 2em 2em;
     }
 
-    .vantagens__premium {
-        font-size: 30px;
+    .container__planos {
+        text-align: center;
     }
+
+ 
 }
 
 @media screen and (max-width: 1582px){
