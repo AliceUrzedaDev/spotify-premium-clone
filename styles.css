@@ -412,6 +412,16 @@ footer {
         text-align: center;
     }
 
+    .rodape-texto-final {
+        width: 100%;
+        margin: 10px;
+       
+    }
+
+    .item-final {
+        margin: 10px;
+    }
+
  
 }
 
