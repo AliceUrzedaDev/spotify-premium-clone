@@ -407,19 +407,34 @@ footer {
     .vantagens__premium {
         font-size: 30px;
     }
-    
-    .container__vantagens {
-        display: block;
-        flex-direction: column;
-        justify-content: flex-start;
-        margin: 2em 2em;
-    }
-
+     
     .container__planos {
         text-align: center;
     }
 
  
+}
+
+@media screen and (max-width: 992px) {
+
+    .vantagens__premium {
+        font-size: 32px;
+    }
+
+    .container__vantagens {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .vantagens__item img {
+        display: flex;
+        width: 10%;
+    }
+
+    .vantagens__item {
+        margin: 1em;
+    }
 }
 
 @media screen and (max-width: 1582px){
